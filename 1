@@ -1,0 +1,32 @@
+
+In this blog, lets see the key difference HTTP1.1 over HTTP2 & Objects and its internal representation in JavaScript.
+
+HTTP: Hypertext Transfer Protocol
+
+HTTP is the topmost layer of the OSI model and among many of the application layer protocols HTTP is one of it. This is a protocol which basically used in all Web Sites or Applications, and this is a method that computer sends request to the server for information or Server sends information to the computer.
+HTTP1.1:
+Initially it went several steps of developments and Hypertext Transfer Protocol V1.1 was created in the year 1997.  
+HTTP2:
+Latest version Hypertext Transfer Protocol was created in the year 2015 and it has solved many problems in web application or creators of HTTP1.1. Basically, it is more efficient when it compared to HTTP1.1 and it prioritizes content during the execution or loading process.
+Difference between HTTP1.1 vs HTTP2:
+HTTP1.1 runs in the sequential manner, in case if any resource was not loaded while execution it blocks the overall resources behind it. Whereas HTTP2 can use single TCP-Transmission Control Protocol connection to send multiple stacks, due to this no other resources will be blocked and also the data will be split and converted to the binary coded with ID’s and the same will be identified by the client while streaming the data.
+In header comparison the HTTP1.1 and HTTP2 are quickly loaded the smaller files compared to larger files. To speed up the Web performance this both protocols are compress the HTTP messages to make the file as smaller.
+In over all analysis, HTTP2 is different from HTTP1.1 in some features providing greater levels of control that can be used to optimize the application in better performance and improving the previous protocol.
+
+
+Objects and its internal representation in JavaScript:
+
+Objects, in JavaScript play a vital role in part of data type and it different from the JavaScript primitive data types such as Boolean, String, Number, Float, Null, Undefined and Symbols. Which means this data types are stored the data in Single value.  
+Whereas Objects stores each data type in combination of this primitive data type. An Object is a reference data type and Variable are assigned to the pointer or to get the reference value. The reference or the pointer points the location of memory saved in an array.
+Object in JavaScript is defined as collection of related data of “Key:Values”. In this Key will be the Variables or Functions and this is called Properties or Methods in respective to the Object.
+Let’s discuss about this with an example:
+//In this example details of the car were mentioned in the object and extracting the needed values with dot(.) operator.
+
+var car = {
+   brand:"Hundai",
+   model:"i10",
+   year:2022,
+}
+   console.log(car.brand);
+//end-here
+
